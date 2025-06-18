@@ -4,7 +4,8 @@
   "license": "MIT",
   "overrides": {
     "esbuild": "^0.25.5",
-    "koa": ">=2.16.1"
+    "koa": ">=2.16.1",
+    "@nx/devkit": "19.8.14"
   },
   "scripts": {},
   "private": true,
@@ -42,6 +43,7 @@
     "@nx/js": "19.8.14",
     "@nx/web": "19.8.14",
     "@nx/workspace": "19.8.14",
+    "@nxrocks/nx-spring-boot": "^10.2.6",
     "@schematics/angular": "~18.2.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
