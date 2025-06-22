@@ -5,7 +5,7 @@ services:
       - '5432:5432'
     environment:
       - 'POSTGRES_USER=ironslayer'
-      - 'POSTGRES_DB=ironslayer'
+      - 'POSTGRES_DB=ecommerce_db'
       - 'POSTGRES_PASSWORD=ironslayer'
     volumes:
-      - './volumes/ironslayer/postgres:/var/lib/postgresql/data'
+      - './volumes/ecommerce-db/postgres:/var/lib/postgresql/data'
