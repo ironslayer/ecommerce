@@ -1,6 +1,6 @@
 package io.github.ironslayer.ecom.shared.authentication.infrastructure.primary;
 
-import org.apache.catalina.realm.AuthenticatedUserRealm;
+import io.github.ironslayer.ecom.shared.authentication.application.AuthenticatedUser;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.lang.NonNull;
 import org.springframework.security.authentication.AbstractAuthenticationToken;
