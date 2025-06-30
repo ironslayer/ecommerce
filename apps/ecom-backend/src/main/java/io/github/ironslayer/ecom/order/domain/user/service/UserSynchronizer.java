@@ -1,9 +1,9 @@
 package io.github.ironslayer.ecom.order.domain.user.service;
 
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
-import io.github.ironslayer.ecom.order.domain.user.infrastructure.secondary.service.kinde.KindeService;
 import io.github.ironslayer.ecom.order.domain.user.repository.UserRepository;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserAddressToUpdate;
+import io.github.ironslayer.ecom.order.infrastructure.secondary.service.kinde.KindeService;
 import io.github.ironslayer.ecom.shared.authentication.application.AuthenticatedUser;
 import org.springframework.security.oauth2.jwt.Jwt;
 
