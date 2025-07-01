@@ -3,7 +3,6 @@ package io.github.ironslayer.ecom.order.infrastructure.secondary.entity;
 
 import io.github.ironslayer.ecom.order.domain.user.aggregate.Authority;
 import io.github.ironslayer.ecom.order.domain.user.aggregate.AuthorityBuilder;
-import io.github.ironslayer.ecom.order.domain.user.infrastructure.secondary.entity.AuthorityEntityBuilder;
 import io.github.ironslayer.ecom.order.domain.user.vo.AuthorityName;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -38,7 +37,7 @@ public class AuthorityEntity implements Serializable {
 
   public static Set<AuthorityEntity> from(Set<Authority> authorities) {
     return authorities.stream()
-      .map(authority -> AuthorityEntityBuilder.authorityEntity()
+      .map(authority -> io.github.ironslayer.ecom.order.infrastructure.secondary.entity.AuthorityEntityBuilder.authorityEntity()
         .name(authority.getName().name()).build()).collect(Collectors.toSet());
   }
 
