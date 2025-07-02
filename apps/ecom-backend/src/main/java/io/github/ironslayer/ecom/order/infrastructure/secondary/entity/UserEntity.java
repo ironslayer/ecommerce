@@ -2,7 +2,6 @@ package io.github.ironslayer.ecom.order.infrastructure.secondary.entity;
 
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
 import io.github.ironslayer.ecom.order.domain.user.aggregate.UserBuilder;
-import io.github.ironslayer.ecom.order.domain.user.infrastructure.secondary.entity.UserEntityBuilder;
 import io.github.ironslayer.ecom.order.domain.user.vo.*;
 import io.github.ironslayer.ecom.shared.jpa.AbstractAuditingEntity;
 import jakarta.persistence.*;
