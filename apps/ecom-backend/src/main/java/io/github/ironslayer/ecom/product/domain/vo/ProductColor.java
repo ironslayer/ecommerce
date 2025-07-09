@@ -1,6 +1,5 @@
 package io.github.ironslayer.ecom.product.domain.vo;
 
-
 import io.github.ironslayer.ecom.shared.error.domain.NotAColorException;
 
 import java.util.regex.Matcher;
