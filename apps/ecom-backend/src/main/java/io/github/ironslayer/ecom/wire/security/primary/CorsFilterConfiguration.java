@@ -13,16 +13,16 @@ public class CorsFilterConfiguration {
 
   private CorsConfiguration corsConfiguration;
 
-  public CorsFilterConfiguration( CorsConfiguration corsConfiguration ){
+  public CorsFilterConfiguration(CorsConfiguration corsConfiguration) {
     this.corsConfiguration = corsConfiguration;
   }
 
   @Bean
   public FilterRegistrationBean<CorsFilter> simpleCorsFilter() {
     UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-    source.registerCorsConfiguration( "/**", corsConfiguration );
-    FilterRegistrationBean<CorsFilter> bean = new FilterRegistrationBean<>( new CorsFilter( source ) );
-    bean.setOrder( Ordered.HIGHEST_PRECEDENCE );
+    source.registerCorsConfiguration("/**", corsConfiguration);
+    FilterRegistrationBean<CorsFilter> bean = new FilterRegistrationBean<>(new CorsFilter(source));
+    bean.setOrder(Ordered.HIGHEST_PRECEDENCE);
     return bean;
   }
 
