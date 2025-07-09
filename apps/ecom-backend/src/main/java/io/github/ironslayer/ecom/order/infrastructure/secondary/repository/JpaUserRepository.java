@@ -1,10 +1,9 @@
 package io.github.ironslayer.ecom.order.infrastructure.secondary.repository;
 
+import io.github.ironslayer.ecom.order.infrastructure.secondary.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
-
-import io.github.ironslayer.ecom.order.infrastructure.secondary.entity.UserEntity;
 
 import java.util.List;
 import java.util.Optional;
