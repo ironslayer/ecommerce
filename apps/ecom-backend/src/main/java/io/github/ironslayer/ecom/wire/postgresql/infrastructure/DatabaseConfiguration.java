@@ -8,9 +8,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories( basePackages = {"io.github.ironslayer.ecom"} )
+@EnableJpaRepositories(basePackages = {"io.github.ironslayer.ecom"})
 @EnableJpaAuditing
-@EnableSpringDataWebSupport( pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
+@EnableSpringDataWebSupport(pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
 public class DatabaseConfiguration {
-
 }
