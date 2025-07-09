@@ -1,10 +1,10 @@
 package io.github.ironslayer.ecom.order.domain.user.service;
 
-
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
 import io.github.ironslayer.ecom.order.domain.user.repository.UserRepository;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserEmail;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserPublicId;
+import io.github.ironslayer.ecom.order.infrastructure.secondary.entity.UserEntity;
 
 import java.util.Optional;
 
