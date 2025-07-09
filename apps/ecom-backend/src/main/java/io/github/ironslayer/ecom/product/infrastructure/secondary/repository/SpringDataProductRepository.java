@@ -1,14 +1,14 @@
 package io.github.ironslayer.ecom.product.infrastructure.secondary.repository;
 
-import fr.codecake.ecom.order.domain.order.vo.ProductPublicId;
-import fr.codecake.ecom.product.domain.aggregate.FilterQuery;
-import fr.codecake.ecom.product.domain.aggregate.Picture;
-import fr.codecake.ecom.product.domain.aggregate.Product;
-import fr.codecake.ecom.product.domain.repository.ProductRepository;
-import fr.codecake.ecom.product.domain.vo.PublicId;
-import fr.codecake.ecom.product.infrastructure.secondary.entity.CategoryEntity;
-import fr.codecake.ecom.product.infrastructure.secondary.entity.PictureEntity;
-import fr.codecake.ecom.product.infrastructure.secondary.entity.ProductEntity;
+import io.github.ironslayer.ecom.order.domain.order.vo.ProductPublicId;
+import io.github.ironslayer.ecom.product.domain.aggregate.FilterQuery;
+import io.github.ironslayer.ecom.product.domain.aggregate.Picture;
+import io.github.ironslayer.ecom.product.domain.aggregate.Product;
+import io.github.ironslayer.ecom.product.domain.repository.ProductRepository;
+import io.github.ironslayer.ecom.product.domain.vo.PublicId;
+import io.github.ironslayer.ecom.product.infrastructure.secondary.entity.CategoryEntity;
+import io.github.ironslayer.ecom.product.infrastructure.secondary.entity.PictureEntity;
+import io.github.ironslayer.ecom.product.infrastructure.secondary.entity.ProductEntity;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
