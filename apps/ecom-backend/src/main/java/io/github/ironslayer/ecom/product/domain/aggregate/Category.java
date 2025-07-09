@@ -1,6 +1,5 @@
 package io.github.ironslayer.ecom.product.domain.aggregate;
 
-
 import io.github.ironslayer.ecom.product.domain.vo.CategoryName;
 import io.github.ironslayer.ecom.product.domain.vo.PublicId;
 import io.github.ironslayer.ecom.shared.error.domain.Assert;
