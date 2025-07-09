@@ -1,6 +1,6 @@
 package io.github.ironslayer.ecom.product.infrastructure.secondary.repository;
 
-import fr.codecake.ecom.product.infrastructure.secondary.entity.CategoryEntity;
+import io.github.ironslayer.ecom.product.infrastructure.secondary.entity.CategoryEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
