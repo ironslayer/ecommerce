@@ -1,6 +1,5 @@
 package io.github.ironslayer.ecom.order.application;
 
-
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
 import io.github.ironslayer.ecom.order.domain.user.repository.UserRepository;
 import io.github.ironslayer.ecom.order.domain.user.service.UserReader;
