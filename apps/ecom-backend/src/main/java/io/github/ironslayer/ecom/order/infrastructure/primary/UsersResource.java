@@ -1,6 +1,5 @@
 package io.github.ironslayer.ecom.order.infrastructure.primary;
 
-
 import io.github.ironslayer.ecom.order.application.UsersApplicationService;
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
 import org.springframework.http.ResponseEntity;
