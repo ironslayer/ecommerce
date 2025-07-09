@@ -9,7 +9,7 @@ import org.springframework.web.cors.CorsConfiguration;
 public class CorsProperties {
 
   @Bean
-  @ConfigurationProperties( prefix = "application.cors", ignoreInvalidFields = false)
+  @ConfigurationProperties(prefix = "application.cors", ignoreUnknownFields = false)
   public CorsConfiguration corsConfiguration() {
     return new CorsConfiguration();
   }
