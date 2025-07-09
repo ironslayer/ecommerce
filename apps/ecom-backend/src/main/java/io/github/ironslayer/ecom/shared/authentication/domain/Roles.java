@@ -1,7 +1,6 @@
 package io.github.ironslayer.ecom.shared.authentication.domain;
 
 
-
 import io.github.ironslayer.ecom.shared.error.domain.Assert;
 
 import java.util.Collections;
