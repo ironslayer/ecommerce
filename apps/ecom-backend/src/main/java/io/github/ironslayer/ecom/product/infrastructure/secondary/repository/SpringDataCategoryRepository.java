@@ -1,9 +1,9 @@
 package io.github.ironslayer.ecom.product.infrastructure.secondary.repository;
 
-import fr.codecake.ecom.product.domain.aggregate.Category;
-import fr.codecake.ecom.product.domain.repository.CategoryRepository;
-import fr.codecake.ecom.product.domain.vo.PublicId;
-import fr.codecake.ecom.product.infrastructure.secondary.entity.CategoryEntity;
+import io.github.ironslayer.ecom.product.domain.aggregate.Category;
+import io.github.ironslayer.ecom.product.domain.repository.CategoryRepository;
+import io.github.ironslayer.ecom.product.domain.vo.PublicId;
+import io.github.ironslayer.ecom.product.infrastructure.secondary.entity.CategoryEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Repository;
