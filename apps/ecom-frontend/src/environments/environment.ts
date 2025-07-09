@@ -8,5 +8,5 @@ export const environment = {
     audience: 'http://localhost:8080/api',
   },
   apiUrl: 'http://localhost:8080/api',
-  stripePublishableKey: 'pk_test_51PqP6gFxB2dnnKdDhiB1cqZyvA0X1Si7ggeltnoO0OxXVRVMr35Lk8Z1UpsgbzjyawMNIpGlaB91S72uhbGvPpyJ00H5Zy8La7'
+  stripePublishableKey: 'pk_test_51RiTlWD5CuO06Ex6u5zfCze8Fl5Z9m2oEnxvz5KBweMEBqNwHFYMJ6D5p4t0oIlazw1RG5g5XGgiekbLYsRzqDIu00HuxQd1ZT'
 };
