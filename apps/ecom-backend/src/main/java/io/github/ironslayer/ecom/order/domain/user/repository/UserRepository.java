@@ -1,6 +1,7 @@
 package io.github.ironslayer.ecom.order.domain.user.repository;
 
 import io.github.ironslayer.ecom.order.domain.user.aggregate.User;
+import io.github.ironslayer.ecom.order.domain.user.vo.UserAddress;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserAddressToUpdate;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserEmail;
 import io.github.ironslayer.ecom.order.domain.user.vo.UserPublicId;
